@@ -1,0 +1,100 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Body Styling */
+body {
+    background-image: url("allianz_arena1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 15px;
+    background-color: none;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    color:white;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    background-color: #e74c3c;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 200px;
+}
+
+.hero-section .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: none;
+}
+
+.footer p {
+    color: white;
+    
+}
